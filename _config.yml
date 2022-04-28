@@ -22,7 +22,7 @@ title: "jpsummer" # the name of your site, e.g. ACME Corp.
 author: "Jacob Somerville"
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Jacob Somervilles portfolio :)
-url: "http://www.jpsummer.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.jpsummer.com" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: "jacobsomerville"
 github_username:  "jpsummer"
 
