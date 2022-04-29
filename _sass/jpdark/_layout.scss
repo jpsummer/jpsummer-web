@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid darken($background-color, 1.33%);
   border-bottom: 1px solid $grey-color-darker;
   min-height: $spacing-unit * 1.865;
 
@@ -50,8 +49,8 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-dark;
+    background-color: $header-color;
+    border: 1px solid lighten($grey-color-darker, 13%);
     border-radius: $border-radius;
     text-align: right;
 
@@ -133,11 +132,19 @@
 .footer-col-1 {
   width: -webkit-calc(30% - (#{$spacing-unit} / 2));
   width:         calc(30% - (#{$spacing-unit} / 2));
+
+  h4 {
+    margin-bottom: $spacing-unit / 4;
+  }
 }
 
 .footer-col-2 {
   width: -webkit-calc(30% - (#{$spacing-unit} / 2));
   width:         calc(30% - (#{$spacing-unit} / 2));
+
+  h4 {
+    margin-bottom: $spacing-unit / 4;
+  }
 }
 
 .footer-col-3 {

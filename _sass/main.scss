@@ -10,12 +10,13 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #e5e5e5;
-$background-color: #333333;
-$background-color-dark: darken($background-color, 5%);
-$brand-color:      #2a7ae2;
+$text-color:            #cecece;
+$header-color:          #141b25;
+$background-color:      #232323;
+$background-color-dark: #03121f;
+$brand-color:           #2a7ae2;
 
-$grey-color:       #dddddd;
+$grey-color:            #dddddd;
 $grey-color-dark: darken($grey-color, 25%);
 $grey-color-darker:  darken($grey-color, 60%);
 
@@ -23,10 +24,10 @@ $border-radius: 5px;
 $table-text-align: left;
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    900px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        900px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

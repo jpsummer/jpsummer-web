@@ -21,10 +21,16 @@
 title: "jpsummer" # the name of your site, e.g. ACME Corp.
 author: "Jacob Somerville"
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Jacob Somervilles portfolio :)
+  Information Technology student and an aspiring web developer.
+  Seeking Software Engineering internships to expand my technical
+  skills and teamwork in a structured environment.
 url: "https://www.jpsummer.com" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: "jacobsomerville"
 github_username:  "jpsummer"
+header_pages: [
+  "about.md",
+  "blog.md"
+]
 
 
 # Exclude from processing.

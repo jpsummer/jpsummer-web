@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $background-color;
+  background-color: $header-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -40,6 +40,14 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+p strong {
+  color: #ffffff;
+  font-weight: $base-font-weight * 1.8;
+}
 
 
 /**
@@ -60,6 +68,11 @@ img {
   vertical-align: middle;
 }
 
+p img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /**
@@ -95,7 +108,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: $base-font-weight * 1.5;
 }
 
 
@@ -217,7 +230,7 @@ pre {
 
 .social-media-list {
   li + li {
-    padding-top: 0px;
+    padding-top: 5px;
   }
 }
 
@@ -236,11 +249,16 @@ table {
 
   tr {
     &:nth-child(even) {
-      background-color: darken($grey-color-darker, 5%);
+      background-color: lighten($background-color-dark, 5%);
+    }
+  }
+  tr {
+    &:nth-child(odd) {
+      background-color: $background-color-dark;
     }
   }
   table, th, td {
-    border: 1px solid lighten($grey-color-darker, 13%);
+    border: 1px solid $grey-color-darker;
   }
 
   tr:last-child td:first-child {
@@ -260,8 +278,8 @@ table {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: $grey-color-darker;
-    border-bottom-color: lighten($grey-color-dark, 8%);
+    background-color: lighten($background-color-dark, 9%);
+    border-bottom-color: lighten($background-color-dark, 8%);
   }
 
 }
