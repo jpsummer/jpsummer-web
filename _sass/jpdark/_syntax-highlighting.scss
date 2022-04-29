@@ -2,12 +2,14 @@
  * Syntax highlighting styles
  */
 .highlight {
-    background: #272822;
+    background: $background-color;
     @extend %vertical-rhythm;
     
     pre { 
-        border: none;
+        border: 1px solid darken($grey-color-dark, 15%);
+        background: $background-color;
         code {
+            background: $background-color;
             display: block; 
             white-space: pre; 
             overflow-x: auto; 

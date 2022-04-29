@@ -12,12 +12,14 @@ $spacing-unit:     30px;
 
 $text-color:       #e5e5e5;
 $background-color: #333333;
+$background-color-dark: darken($background-color, 5%);
 $brand-color:      #2a7ae2;
 
 $grey-color:       #dddddd;
 $grey-color-dark: darken($grey-color, 25%);
 $grey-color-darker:  darken($grey-color, 60%);
 
+$border-radius: 5px;
 $table-text-align: left;
 
 // Width of the content area

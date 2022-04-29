@@ -47,6 +47,7 @@ ul, ol, dl, figure,
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  background-color: $background-color-dark;
 }
 
 
@@ -146,9 +147,9 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-dark;
-  border-radius: 3px;
-  background-color: lighten($background-color, 8%);
+  border: 1px solid lighten($grey-color-darker, 10%);
+  border-radius: $border-radius;
+  background-color: lighten($background-color, 6%);
 }
 
 code {
@@ -216,7 +217,7 @@ pre {
 
 .social-media-list {
   li + li {
-    padding-top: 5px;
+    padding-top: 0px;
   }
 }
 
@@ -230,22 +231,37 @@ table {
   width: 100%;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
-  border-collapse: collapse;
-  border: 1px solid $grey-color-dark;
+  border-collapse: separate;
+  border-spacing: 0;
+
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-dark, 6%);
+      background-color: darken($grey-color-darker, 5%);
     }
   }
+  table, th, td {
+    border: 1px solid lighten($grey-color-darker, 13%);
+  }
+
+  tr:last-child td:first-child {
+    border-bottom-left-radius: $border-radius;
+  }
+  tr:last-child td:last-child {
+    border-bottom-right-radius: $border-radius;
+  }
+  th:first-child{
+    border-top-left-radius: $border-radius;
+  }
+  th:last-child{
+    border-top-right-radius: $border-radius;
+  }
+
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-dark, 3%);
-    border: 1px solid darken($grey-color-dark, 4%);
-    border-bottom-color: darken($grey-color-dark, 12%);
+    background-color: $grey-color-darker;
+    border-bottom-color: lighten($grey-color-dark, 8%);
   }
-  td {
-    border: 1px solid $grey-color-dark;
-  }
+
 }

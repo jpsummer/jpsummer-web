@@ -52,7 +52,7 @@
     right: $spacing-unit / 2;
     background-color: $background-color;
     border: 1px solid $grey-color-dark;
-    border-radius: 5px;
+    border-radius: $border-radius;
     text-align: right;
 
     label[for="nav-trigger"] {
@@ -106,7 +106,8 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-darker;
+  border-top: 0px solid $grey-color-darker;
+  background-color: lighten($background-color-dark, 2%);
   padding: $spacing-unit * 0.55;
 }
 
