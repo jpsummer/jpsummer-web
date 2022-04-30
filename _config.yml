@@ -28,10 +28,21 @@ linkedin_username: "jacobsomerville"
 github_username:  "jpsummer"
 header_pages: [
   "about.md",
-  "blog.md"
+  "blog_latest.md"
 ]
 best_categories: [
-  "network"
+  {
+    category: "security",
+    name: "Network Security"
+  },
+  {
+    category: "cloud",
+    name: "Cloud Services"
+  },
+  { 
+    category: "other",
+    name: "miscellaneous"
+  }
 ]
 
 

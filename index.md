@@ -1,9 +1,8 @@
 ---
-layout: default
-title: "Home"
+layout: page
+title: Home
+heading: Welcome!
 ---
-
-# Welcome!
 
 {{ site.description | escape }}
 
