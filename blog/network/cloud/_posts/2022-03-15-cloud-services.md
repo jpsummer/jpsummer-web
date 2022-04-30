@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Cloud Services"
+title:  Cloud Services
+heading: Cloud Services
 date:   2022-03-15 20:00:00 +0930
+author: Jacob Somerville
 ---
 
 ### New Frontier
