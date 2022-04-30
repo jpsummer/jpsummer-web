@@ -31,6 +31,9 @@ header_pages: [
   "about.md",
   "blog.md"
 ]
+best_categories: [
+  "network"
+]
 
 
 # Exclude from processing.
