@@ -45,8 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p strong {
-  color: lighten($text-color, 10%);
-  font-weight: $base-font-weight * 2.4;
+  color: #cd6e24;
+  font-weight: $base-font-weight * 2;
 }
 
 
@@ -108,7 +108,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight * 1.5;
+  font-weight: $base-font-weight * 1.3;
 }
 
 
