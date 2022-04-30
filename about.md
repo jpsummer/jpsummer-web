@@ -6,20 +6,7 @@ permalink: /about/
 
 {{ site.description }}
 
-
 <br/><br/>
 
-| Syntax      | Description | Description |
-| ----------- | ----------- | ----------- |
-| Header      | Title       | Title       |
-| Paragraph   | Text        | Text        |
-| Header      | Title       | Title       |
-| Paragraph   | Text        | Text        |
-| Header      | Title       | Title       |
-| Paragraph   | Text        | Text        |
-| Header      | Title       | Title       |
-| Paragraph   | Text        | Text        |
-| Header      | Title       | Title       |
-| Paragraph   | Text        | Text        |
-| Header      | Title       | Title       |
-| Paragraph   | Text        | Text        |
+#### You can find me on my socials
+{% include social.html %}

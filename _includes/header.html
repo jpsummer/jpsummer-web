@@ -1,8 +1,10 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
+  <div class="wrapper header-a">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
+    
+    <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="site-github-icon"><use xlink:href="{{ '/assets/jpdark-social-icons.svg#github' | relative_url }}"></use></svg></a>
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}

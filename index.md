@@ -3,6 +3,11 @@ layout: default
 title: "Home"
 ---
 
-## You're ready to go!
+# Welcome!
 
-Start developing your Jekyll website.
+{{ site.description | escape }}
+
+<br/><br/><br/>
+
+#### You can find me on my socials
+{% include social.html %}
