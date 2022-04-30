@@ -45,8 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p strong {
-  color: #ffffff;
-  font-weight: $base-font-weight * 1.8;
+  color: lighten($text-color, 10%);
+  font-weight: $base-font-weight * 2.4;
 }
 
 
